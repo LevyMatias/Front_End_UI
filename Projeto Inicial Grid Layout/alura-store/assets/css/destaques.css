@@ -1,0 +1,15 @@
+.destaques {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 33.33% 33.33% 33.33%;
+  height: calc(100vh - 50px);
+}
+
+.destaques__principal {
+	background-image: url(../img/fortnite.jpg);
+  background-repeat: no-repeat;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
