@@ -1,0 +1,23 @@
+.app {
+    background: #f1f1f1;
+    display: grid;  
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo"
+        "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 50px 78px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+  grid-area: cabecalho;
+}
+ 
+.conteudo {
+  grid-area: conteudo;
+}
+
+.rodape {
+  grid-area: rodape;
+}
