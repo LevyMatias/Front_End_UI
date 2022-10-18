@@ -32,8 +32,6 @@
 
 .rodapePrincipal-patrocinadores-list {
     display: flex;
-    width: 70%;
-    margin-right: 5%;
     justify-content: space-around;
     align-items: center;
 }
@@ -49,5 +47,5 @@
 .rodapePrincipal-navMap-list {
     display: flex;
     flex-flow: column wrap;
-    height: 260px;
+    height: 250px;
 }
