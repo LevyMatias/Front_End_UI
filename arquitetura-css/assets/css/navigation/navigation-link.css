@@ -1,0 +1,8 @@
+.navigation-link  {
+    color: var(--main-color-text);
+    margin-right: 1.3rem;
+}
+
+.navigation-link.actived {
+    font-weight: bold;
+}
