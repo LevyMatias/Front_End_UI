@@ -1,5 +1,5 @@
 /* responsividade */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 788px){
     .cabecalhoPrincipal .container {
         flex-direction: column;
         align-items: initial;
@@ -7,6 +7,10 @@
     }
     .cabecalhoPrincipal-nav {
         flex-direction: column;
+    }
+
+    .cabecalhoPrincipal-nav-link {
+        text-decoration: underline;
     }
 
     .cabecalhoPrincipal-nav-link-app {
@@ -19,6 +23,15 @@
     .conteudoPrincipal-cursos-link {
         width: 100%;
     }
+
+    .videoSobre .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .videoSobre-video {
+        width: 100%;
+        margin: 0;
+    }
     .rodapePrincipal-navMap-list {
         height: auto;
     }
@@ -29,10 +42,17 @@
     .rodapePrincipal-patrocinadores-list {
         width: 99%;
         margin: 0;
+    }
 
+    .rodapePrincipal-patrocinadores-list li {
+        width: 80px;
+    }
+
+    .rodapePrincipal-patrocinadores-list li img {
+        max-width: 100%;
     }
     .rodapePrincipal-contatoForm {
-        width: 100%;
+        /* width: 100%; */
     }
     .rodapePrincipal-contatoForm-fieldset {
         justify-content: center;

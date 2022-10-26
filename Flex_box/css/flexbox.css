@@ -25,6 +25,33 @@
     margin-left: 0;
 }
 
+.videoSobre .container {
+    display: flex;
+}
+
+.videoSobre-video {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-flow: column wrap;
+    height: 250px;
+}
+
 .rodapePrincipal-patrocinadores .container {
     display: flex;
     justify-content: space-between;
@@ -36,16 +63,7 @@
     align-items: center;
 }
 
-.rodapePrincipal-contatoForm {
-    width: 25%;
-}
-
 .rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
 
-.rodapePrincipal-navMap-list {
-    display: flex;
-    flex-flow: column wrap;
-    height: 250px;
-}
