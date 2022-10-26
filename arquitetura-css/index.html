@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
-		<link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+		<!-- fonte da pagina -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet"> 
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -9,30 +12,57 @@
 		<link href="./assets/css/normalize.css" rel="stylesheet" />
 		<link href="./assets/css/reset.css" rel="stylesheet" />
 		
-		<link rel="stylesheet" href="assets/css/style.css">
-		<link href="./assets/css/header.css" rel="stylesheet" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+
+		<!-- parte do cabeçalho do site -->
+		<link href="./assets/css/header/header.css" rel="stylesheet" />
+		<link href="./assets/css/header/logo.css" rel="stylesheet" />
 		<link href="./assets/css/navigation/navigation-list.css" rel="stylesheet" />
 		<link href="./assets/css/navigation/navigation-item.css" rel="stylesheet" />
 		<link href="./assets/css/navigation/navigation-link.css" rel="stylesheet" />
+
+		<!-- parte do banner -->
+		<link href="./assets/css/banner/banner-img.css" rel="stylesheet" />
+		<link href="./assets/css/banner/banner.css" rel="stylesheet" />
+		<link href="./assets/css/banner/banner-title.css" rel="stylesheet" />
+
+		<!-- parte sobre -->
+		<link rel="stylesheet" href="./assets/css/about/about.css" />
+		<link rel="stylesheet" href="./assets/css/about/about-title.css" />
+		<link rel="stylesheet" href="./assets/css/about/about-description.css" />
 	</head>
+
 <body>
 	<!-- cabecalho do site -->
 	<header>
-		<img class="logo" src="assets/img/logo.jpg" alt="logo">
+		<div class="logo">
+			<img class="logo__img" src="assets/img/logo_wiki.webp" alt="logo">
+			<h1> Tech.X</Tech_X></h1>
+		</div>
 
 		<nav class="navigation">
-			<ul class="navigation-list">
-				<li class="navigation-item"><a class="navigation-link actived" href="#">Início</a></li>
-				<li class="navigation-item"><a class="navigation-link" href="#">Receitas</a></li>
-				<li class="navigation-item"><a class="navigation-link" href="#">Quem Somos</a></li>
-				<li class="navigation-item"><a class="navigation-link" href="#">Comunidade</a></li>	
+			<ul class="navigation__list">
+				<li class="navigation__item"><a class="navigation__link actived" href="#">Início</a></li>
+				<li class="navigation__item"><a class="navigation__link" href="#">Receitas</a></li>
+				<li class="navigation__item"><a class="navigation__link" href="#">Quem Somos</a></li>
+				<li class="navigation__item"><a class="navigation__link" href="#">Comunidade</a></li>	
 			</ul>
 		</nav>
 
 	</header>
 
-	<section class="banner">
-		
+	<section class="banner__container">
+		<!-- <img class="banner" src="assets/img/banner_1.jpg" alt=""> -->
+		<div class="banner__background"></div>
+		<div class="banner__description">
+			<h2>Venha aprender com a gente e faça parte do nosso ecossistema</h2>
+			<p>Estamos nos esforçando para contruir um ambiente único de aprendizagem e ensino em tecnologia</p>
+		</div>
+	</section>
+
+	<section class="about">
+		<h2 class="about__title">Explore nossa wiki</h2>
+		<p class="about__description">Expanda seus conhecimentos com variados temas sobre tecnologia</p>
 	</section>
 
 </body>

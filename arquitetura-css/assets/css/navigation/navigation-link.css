@@ -1,8 +1,13 @@
-.navigation-link  {
+.navigation__link  {
     color: var(--main-color-text);
     margin-right: 1.3rem;
+    padding: 1.6rem 0;
 }
 
-.navigation-link.actived {
+.navigation__link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.navigation__link.actived {
     font-weight: bold;
 }

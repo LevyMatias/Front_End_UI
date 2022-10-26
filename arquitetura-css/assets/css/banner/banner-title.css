@@ -1,0 +1,11 @@
+.banner__description {
+    text-align: center;
+}
+
+.banner__description h2 {
+    font-size: 2.5rem;
+}
+
+.banner__description p {
+    font-size: 1.5rem;
+}

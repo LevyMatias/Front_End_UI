@@ -2,7 +2,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #eff2f5;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding: .5rem 2rem;
+    background-color: #031328;
 }
