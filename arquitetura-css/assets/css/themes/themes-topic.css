@@ -1,0 +1,9 @@
+.themes__topic {
+    display: flex;
+    flex-direction: column;
+    background: rgb(123,127,136);
+    background: linear-gradient(344deg, #d7d7db 0%, #acb2b4 85%);
+    margin-top: 3rem;
+    width: calc(33.33% - 2rem);
+    border-radius: 7px;
+}

@@ -1,0 +1,9 @@
+.themes__topic__button {
+    width: 50%;
+    border: none;
+    padding: .5rem 1.7rem;
+    border-radius: 7px;
+    cursor: pointer;
+    background: rgb(123,127,136);
+    background: linear-gradient(344deg, #1ccbc5 0%, #1666b8 90%);
+}

@@ -1,0 +1,7 @@
+.themes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--main-color-bg);
+    padding: 0 2rem;
+}
