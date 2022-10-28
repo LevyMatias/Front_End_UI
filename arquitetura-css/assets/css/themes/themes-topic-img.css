@@ -1,6 +1,24 @@
-.themes__topic__image {
-    width: 100%;
+.themes__topic__image { 
     height: 190px;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
+}
+
+.theme__1 {
+    background: url(../../img/themes/hardware_imagem.jpg) center / cover no-repeat;
+}
+.theme__2 {
+    background: url(../../img/themes/computer_network.jpg) center / cover no-repeat;
+}
+.theme__3 {
+    background: url(../../img/themes/programming.jpg) center / cover no-repeat;
+}
+.theme__4 {
+    background: url(../../img/themes/cybersecurity.jpg) center / cover no-repeat;
+}
+.theme__5 {
+    background: url(../../img/themes/cloud.jpg) center / cover no-repeat;
+}
+.theme__6 {
+    background: url(../../img/themes/ai.png) center / cover no-repeat;
 }

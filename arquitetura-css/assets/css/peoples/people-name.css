@@ -1,0 +1,6 @@
+.people__name {
+    background: linear-gradient(344deg, #1ccbc5 0%, #1666b8 90%);
+    border-radius: 100px;
+    padding: .3rem .5rem;
+    margin-top: 1rem;
+}

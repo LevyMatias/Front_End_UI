@@ -10,8 +10,7 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>TechX</title>
 		<link href="./assets/css/normalize.css" rel="stylesheet" />
-		<link href="./assets/css/reset.css" rel="stylesheet" />
-		
+		<link href="./assets/css/reset.css" rel="stylesheet" />	
 		<link rel="stylesheet" href="assets/css/style.css" />
 
 		<!-- parte do cabeçalho do site -->
@@ -26,10 +25,10 @@
 		<link href="./assets/css/banner/banner.css" rel="stylesheet" />
 		<link href="./assets/css/banner/banner-title.css" rel="stylesheet" />
 
-		<!-- parte sobre -->
-		<link rel="stylesheet" href="./assets/css/about/about.css" />
-		<link rel="stylesheet" href="./assets/css/about/about-title.css" />
-		<link rel="stylesheet" href="./assets/css/about/about-description.css" />
+		<!-- titulo dos temas -->
+		<link rel="stylesheet" href="./assets/css/titleTheme/title.css" />
+		<link rel="stylesheet" href="./assets/css/titleTheme/titleTheme-title.css" />
+		<link rel="stylesheet" href="./assets/css/titleTheme/titleTheme-description.css" />
 
 		<!-- temas de tecnologia -->
 		<link rel="stylesheet" href="./assets/css/themes/themes.css" />
@@ -39,14 +38,24 @@
 		<link rel="stylesheet" href="./assets/css/themes/themes-topic-description.css" />
 		<link rel="stylesheet" href="./assets/css/themes/themes-topic-botao.css" />
 		<link rel="stylesheet" href="./assets/css/themes/themes-topic-info.css" />
+
+		<!-- seção sobre -->
+		<link rel="stylesheet" href="./assets/css/aboutUs/aboutUs.css">
+		<link rel="stylesheet" href="./assets/css/aboutUs/aboutUs-title.css">
+		<link rel="stylesheet" href="./assets/css/aboutUs/aboutUs-description.css">
+		<link rel="stylesheet" href="./assets/css/peoples/aboutUs-people.css">
+		<link rel="stylesheet" href="./assets/css/peoples/people.css">
+		<link rel="stylesheet" href="./assets/css/peoples/people-img.css">
+		<link rel="stylesheet" href="./assets/css/peoples/people-name.css">
+		<link rel="stylesheet" href="./assets/css/peoples/people-function.css">
 	</head>
 
 <body>
 	<!-- cabecalho do site -->
 	<header>
 		<div class="logo">
-			<img class="logo__img" src="assets/img/logo_wiki.jpg" alt="logo">
-			<h1> Tech.X</Tech_X></h1>
+			<div class="logo__img"></div>
+			<h1> Tech.X
 		</div>
 
 		<nav class="navigation">
@@ -61,21 +70,20 @@
 	</header>
 
 	<section class="banner__container">
-		<div class="banner__background"></div>
 		<div class="banner__description">
 			<h2>Venha aprender com a gente e faça parte do nosso ecossistema</h2>
 			<p>Estamos nos esforçando para contruir um ambiente único de aprendizagem e ensino em tecnologia</p>
 		</div>
 	</section>
 
-	<section class="about">
-		<h2 class="about__title">Explore nossa wiki</h2>
-		<p class="about__description">Expanda seus conhecimentos com variados temas sobre tecnologia</p>
+	<section class="title">
+		<h2 class="title__inner">Explore nossa wiki</h2>
+		<p class="title__description">Expanda seus conhecimentos com variados temas sobre tecnologia</p>
 	</section>
 
 	<section class="themes">
 		<div class="themes__topic">
-			<img class="themes__topic__image" src="assets/img/hardware_imagem.jpg" alt="hardware imagem">
+			<div class="themes__topic__image theme__1"></div>
 			<div class="themes__topic__info">	
 				<h3 class="themes__topic__title">Hardware</h3>
 				<p class="themes__topic__description">Se refere à parte física de computadores e outros sistemas microeletrônicos</p>
@@ -84,7 +92,7 @@
 		</div>
 
 		<div class="themes__topic">
-			<img class="themes__topic__image" src="assets/img/computer_network.jpg" alt="redes imagem">
+			<div class="themes__topic__image theme__2"></div>
 
 			<div class="themes__topic__info">
 				<h3 class="themes__topic__title">Redes de Computadores</h3>
@@ -97,7 +105,7 @@
 		</div>
 
 		<div class="themes__topic">
-			<img class="themes__topic__image" src="assets/img/programming.jpg" alt="programming imagem">
+			<div class="themes__topic__image theme__3"></div>
 			<div class="themes__topic__info">
 				<h3 class="themes__topic__title">Programação</h3>
 				<p class="themes__topic__description">
@@ -110,7 +118,7 @@
 		</div>
 
 		<div class="themes__topic">
-			<img class="themes__topic__image" src="assets/img/cybersecurity.jpg" alt="hardware imagem">
+			<div class="themes__topic__image theme__4"></div>
 			<div class="themes__topic__info">
 				<h3 class="themes__topic__title">Segurança Cibernética</h3>
 				<p class="themes__topic__description">
@@ -122,7 +130,7 @@
 		</div>
 
 		<div class="themes__topic">
-			<img class="themes__topic__image" src="assets/img/cloud.jpg" alt="hardware imagem">
+			<div class="themes__topic__image theme__5"></div>
 			<div class="themes__topic__info">
 				<h3 class="themes__topic__title">Computação na Núvem</h3>
 				<p class="themes__topic__description">Computação em nuvem é a oferta de serviços de computação sob demanda por meio da internet.
@@ -133,12 +141,34 @@
 		</div>
 
 		<div class="themes__topic">
-			<img class="themes__topic__image" src="assets/img/ai.png" alt="hardware imagem">
+			<div class="themes__topic__image theme__6"></div>
 			<div class="themes__topic__info">
 				<h3 class="themes__topic__title">Inteligência Artificial</h3>
 				<p class="themes__topic__description">refere-se a sistemas ou máquinas que mimetizam a inteligência humana para executar 
 					tarefas e podem se aprimorar iterativamente com base nas informações que eles coletam.</p>
 				<button class="themes__topic__button">Saber mais</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-us">
+		<h3 class="about-us__title">Quem somos</h3>
+		<p class="about-us__description">Conheça a comunidade por trás da iniciativa</p>
+		<div class="about-us__peoples">
+			<div class="people">
+				<div class="people__img people__img--person1"></div>
+				<span class="people__name">José</span>
+				<span class="people__function">Criador do conteúdo</span>
+			</div>
+			<div class="people">
+				<div class="people__img people__img--person2"></div>
+				<span class="people__name">Henrique</span>
+				<span class="people__function">Fundador do projeto</span>
+			</div>
+			<div class="people">
+				<div class="people__img people__img--person3"></div>
+				<span class="people__name">Julia</span>
+				<span class="people__function">Ceo do projeto</span>
 			</div>
 		</div>
 	</section>

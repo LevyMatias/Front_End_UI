@@ -1,0 +1,15 @@
+.people__img {
+    border-radius: 100px; 
+    height: 100%;
+    max-width: 100%;
+}
+
+.people__img--person1 {
+    background: url(../../img/about-us/man-profile.jpg) center / 220px no-repeat;
+}
+.people__img--person2 {
+    background: url(../../img/about-us/profile_man_2.jpg) center / 220px no-repeat;
+}
+.people__img--person3 {
+    background: url(../../img/about-us/profile_woman.jpg) center / 220px no-repeat;
+}

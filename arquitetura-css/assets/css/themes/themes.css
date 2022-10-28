@@ -3,5 +3,5 @@
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: var(--main-color-bg);
-    padding: 0 2rem;
+    padding: 0 2rem 2rem;
 }

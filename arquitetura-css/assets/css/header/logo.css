@@ -1,13 +1,14 @@
 .logo {
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 .logo__img {
-    width: 80px;
-    height: calc(80px - .5rem);
+    background: url(../../img/logo_wiki.jpg) no-repeat center / cover;
     border-radius: 50%;
     margin-right: 13px;
+    height: calc(80px - .5rem);
+    width: 75px;
 }
 
 .logo h1 {
