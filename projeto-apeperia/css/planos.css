@@ -1,8 +1,7 @@
 .planos {
     background-color: var(--cinza-claro);
-    
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+
+    padding: 3rem 0;
 }
 
 .planos__titulo {
@@ -16,20 +15,15 @@
     margin-bottom: 1.25rem;
 }
 
-.planos__cartoes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .cartao {
     display: flex;
     flex-direction: column;
 
     background-color: var(--branco);
+    padding: 0 2rem;
 
-    width: 100%;
-    max-width: 300px;
+    width: calc(100% - 2rem);
+    max-width: 400px;
 
     margin-bottom: 2rem;
 
@@ -47,10 +41,6 @@
     margin-bottom: .5rem;
 
     border-bottom: 1px solid var(--azul-claro);
-}
-
-.cartao__conteudo {
-    padding: 0 15%;
 }
 
 .cartao__preco {
@@ -73,34 +63,45 @@
 
     width: 100%;
 
-    align-self: center;
+    text-align: center;
 
-    padding: .75rem 2rem;
+    padding: .75rem 0;
 
     margin-top: 1rem;
     margin-bottom: 1rem;
+    border: solid 1px;
+    border-radius: 5px;
 }
 
 .cartao--start {
-    color: var(--planos-cartao-start);
+    color: var(--main-card-start);
 }
 
 .cartao--ultra {
-    color: var(--planos-cartao-ultra);
+    color: var(--main-card-ultra);
 }
 
 .cartao--mega {
-    color: var(--planos-cartao-mega);
+    color: var(--main-card-mega);
 }
 
 .cartao__botao--start {
-    border-color: var(--planos-cartao-start);
+    border-color: var(--main-card-start);
 }
 
 .cartao__botao--ultra {
-    border-color: var(--planos-cartao-ultra);
+    border-color: var(--main-card-ultra);
 }
 
 .cartao__botao--mega {
-    border-color: var(--planos-cartao-mega);
+    border-color: var(--main-card-mega);
+}
+
+@media screen and (min-width: 0) {
+    .planos__cartoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2rem;
+    }
 }

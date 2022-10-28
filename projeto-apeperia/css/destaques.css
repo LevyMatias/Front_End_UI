@@ -1,0 +1,39 @@
+.destaques {
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destaques__content {
+    /* padding: 0 1rem; */
+}
+.destaques__imagem {
+    height: 200px;
+    width: 50%;
+}
+
+.imagem_1 {
+    background: url(../img/comecando-criar-logotipo.png) no-repeat center / cover;
+}
+
+/* .imagem_2 {
+    background: url(../img/dicas-fotografia.png) no-repeat center / cover;
+} */
+
+.destaques__titulo {
+    text-align: center;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+    font-family: var(--montserrat);
+    font-size: 1.5rem;
+}
+@media screen and (min-width: 0) {
+    .destaques {
+        width: 100%;  
+    }
+
+    .imagem_1, .imagem_2 {
+        width: 100%;
+    }
+}

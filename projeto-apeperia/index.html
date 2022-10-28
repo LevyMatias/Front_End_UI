@@ -4,28 +4,165 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontes da página -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- estilos da página -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/chamada.css">
+    <link rel="stylesheet" href="./css/destaques.css">
+    <link rel="stylesheet" href="./css/diferenciais.css">
+    <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/planos.css">
     <title>HOME | APEPERIA</title>
 </head>
 <body>
-    <header>
-        <img src="img/logo-apeperia.svg" alt="logo da apeperia">
-        <nav>
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Planos</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Destaques</a></li>
-                <li><a href="#">Institucional</a></li>
-                <li><a href="#">Contato</a></li>
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="img/logo-apeperia.svg" alt="logo da apeperia">
+        <nav class="cabecalho__navegacao">
+            <ul class="cabecalho__nav__itens">
+                <li class="cabecalho__link"><a href="#">Sobre</a></li>
+                <li class="cabecalho__link"><a href="#">Planos</a></li>
+                <li class="cabecalho__link"><a href="#">Blog</a></li>
+                <li class="cabecalho__link"><a href="#">Destaques</a></li>
+                <li class="cabecalho__link"><a href="#">Institucional</a></li>
+                <li class="cabecalho__link"><a href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h1>Aplicativos Na Medida</h1>
-            <p>Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas e médias empresas.</p>
-            <a href="#">Conheça os planos</a>
+        <section class="chamada">
+            <h1 class="chamada__titulo">Aplicativos Na Medida</h1>
+            <p class="chamada__texto">Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas e médias empresas.</p>
+            <a class="chamada__botao" href="#">Conheça os planos</a>
+        </section>
+
+        <section class="destaques">
+            <div class="destaques__content">
+                <h2 class="destaques__titulo">Destaques</h2>
+                <div class="destaques__imagem imagem_1"></div>
+                <p class="destaques__texto">
+                    Conheça as primeiras etapas para a criação de um logotipo
+                </p>
+                <img src="./img/dicas-fotografia.png" class="destaques__imagem imagem_2"/>
+                <p class="destaques__texto">
+                    Veja dicas de como fotografar usando seu celular
+                </p>
+                <a class="destaques__link" href=""></a>
+            </div>
+        </section>
+
+        <section class="diferenciais">
+            <div class="diferenciais__itens">
+                <div class="diferenciais__titulo">
+                    <img class="diferenciais__icone" src="./img/icone-relogio.png" alt="">
+                    <h2 class="diferenciais__titulo__icone">Tempo</h2>
+                </div>
+                <p class="diferenciais__texto">
+                  Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente aos prazos.
+                </p>
+            </div>
+            <div class="diferenciais__itens">
+                <div class="diferenciais__titulo">
+                    <img class="diferenciais__icone" src="./img/icone-dinheiro.png" alt="">
+                    <h2 class="diferenciais__titulo__icone">Foco</h2>
+                </div>
+                
+                <p class="diferenciais__texto">
+                    Focamos no empreendimento! Oferecemos serviços de qualidade com preços acessíveis.
+                </p>
+            </div>
+            <div class="diferenciais__itens">
+                <div class="diferenciais__titulo">
+                    <img class="diferenciais__icone" src="./img/icone-quimica.png" alt="">
+                    <h2 class="diferenciais__titulo__icone">Especialista</h2>
+                </div>
+                
+                <p class="diferenciais__texto">
+                    Equipe experiente e especializada! Testamos todos os produtos antes do lançamento.
+                </p>
+            </div>
+        </section>
+
+        <section class="sobre container">
+            <h2 class="sobre__titulo">Sobre</h2>
+            <p class="sobre__texto">
+                Criamos aplicativos personalizados para todas as pessoas!
+            </p>
+            <p class="sobre__texto">
+                A manutenção de um aplicativo não pode ser um custo extra para o cliente, Na Apeperia você assina nosso serviço e a 
+                manutenção já está inclusa. Assim, você não se preocupa com manutenção, é tudo por nossa conta.
+            </p>
+            <p class="sobre__texto negrito">
+                Conte com uma equipe especializada e exclusiva pra projetos incríveis em qualquer plataforma.
+            </p>
+            <div class="sobre__icones">
+                <img src="./img/android.png" alt="">
+                <img src="./img/blackberry.png" alt="">
+                <img src="./img/apple.png" alt="">
+                <img src="./img/windowsphone.png" alt="">
+            </div>
+            <p class="sobre__texto">
+                Desenvolvemos aplicativos para todas as plataformas
+            </p>
+        </section>
+
+        <section class="planos">
+            <h2 class="planos__titulo">Planos</h2>
+            <div class="planos__cartoes">
+                <div class="cartao cartao__conteudo">
+                    <h3 class="cartao__titulo cartao--start">Start</h3>
+                    <span class="cartao__preco cartao--start">R$ 500</span>
+                    <p class="cartao__texto">
+                        5 manutenções mensais
+                    </p>
+                    <p class="cartao__texto">
+                        App SEO
+                    </p class="cartao__texto">
+                    <p>
+                        1 sistema operacional
+                    </p class="cartao__texto">
+                    <a class="cartao__botao cartao__botao--start cartao--start" href="">Assinar plano</a>
+                </div>
+                <div class="cartao cartao__conteudo">
+                    <h3 class="cartao__titulo cartao--ultra ">Ultra</h3>
+                    <span class="cartao__preco cartao--ultra">
+                        R$ 1500
+                    </span>
+                    <p class="cartao__texto"> 
+                        20 manutenções mensais
+                    </p>
+                    <p class="cartao__texto">
+                        App SEO
+                    </p>
+                    <p class="cartao__texto">
+                        4 sistema operacionais
+                    </p>
+                    <p class="cartao__texto">
+                        24 horas de atendimento
+                    </p>
+                    <a class="cartao__botao cartao--ultra cartao__botao--ultra" href="">Assinar plano</a>
+                </div>
+                <div class="cartao cartao__conteudo">
+                    <h3 class="cartao__titulo cartao--mega">Mega</h3>
+                    <span class="cartao__preco cartao--mega">R$ 1000</span>
+                    <p class="cartao__texto">
+                        10 manutenções mensais
+                    </p>
+                    <p class="cartao__texto">
+                        App SEO
+                    </p>
+                    <p class="cartao__texto">
+                        2 sistema operacionais
+                    </p>
+                    <a class="cartao__botao cartao--mega cartao__botao--mega" href="">Assina planor</a>
+                </div>
+            </div>
         </section>
     </main>
 </body>

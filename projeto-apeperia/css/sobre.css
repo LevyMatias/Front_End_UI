@@ -1,0 +1,26 @@
+.sobre {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: var(--cinza-escuro);
+}
+
+.sobre__titulo {
+    text-align: center;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    font-size: 1.5rem;
+}
+
+.sobre__texto {
+    margin-top: .85rem;
+}
+
+.sobre__texto.negrito {
+    font-weight: 700;
+}
+
+.sobre__icones {
+    margin-top: .85rem;
+    display: flex;
+    justify-content: space-around;
+}
