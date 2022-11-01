@@ -3,7 +3,24 @@
     flex-direction: column;
     background: rgb(123,127,136);
     background: linear-gradient(344deg, #d7d7db 0%, #acb2b4 85%);
-    margin-top: 3rem;
-    width: calc(33.33% - 2rem);
     border-radius: 7px;
+}
+
+@media screen and (min-width: 0) {
+    .themes__topic {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .themes__topic {
+        width: calc(48% - 1rem);
+        margin-left: 1rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .themes__topic {
+        width: calc(33.33% - 1rem);
+        margin-left: 1rem;
+    }
 }

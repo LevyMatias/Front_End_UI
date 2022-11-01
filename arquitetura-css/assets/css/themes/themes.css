@@ -1,7 +1,17 @@
 .themes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     background-color: var(--main-color-bg);
-    padding: 0 2rem 2rem;
+}
+
+@media screen and (min-width: 0) {
+    .themes {
+        flex-direction: column;
+        padding: 0 1rem 1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .themes {
+        flex-direction: row;
+    }
 }

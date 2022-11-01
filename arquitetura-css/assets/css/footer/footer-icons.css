@@ -1,0 +1,8 @@
+.footer__social__icon {
+    margin-left: 15px;
+    font-size: 35px;;
+}
+
+.fa-square-github, .fa-linkedin {
+    color: var(--main-color-text);
+}

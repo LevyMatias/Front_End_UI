@@ -2,6 +2,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: .5rem 2rem;
     background-color: #031328;
+}
+
+@media screen and (min-width: 0) {
+    header {
+        padding: 0 1rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+        padding: .5rem 2rem;
+        justify-content: space-between;
+    }
 }

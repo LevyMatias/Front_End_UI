@@ -2,3 +2,15 @@
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (min-width: 0) {
+    .about-us__peoples {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .about-us__peoples {
+        flex-direction: row;
+    }
+}

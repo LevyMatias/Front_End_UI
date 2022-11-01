@@ -1,3 +1,7 @@
 .navigation__list {
     display: flex;
 }
+
+@media screen and (min-width: 0) {
+
+}
