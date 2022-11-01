@@ -105,3 +105,11 @@
         padding: 0 2rem;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .planos__cartoes {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}

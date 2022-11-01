@@ -1,0 +1,72 @@
+/* estilos padrão */
+.institucional {
+    padding-top: 2rem;
+    color: var(--cinza-escuro);
+}
+
+.institucional__titulo {
+    text-align: center;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    font-size: 1.5rem;
+}
+
+.institucional__paragrafo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 14px;
+}
+
+.institucional__endereco {
+    padding-bottom: 2rem;
+}
+
+.institucional__video {
+    width: 100vw;
+}
+
+@media screen and (min-width: 0) {
+    .institucional__paragrafo {
+        text-align: center;
+    }
+
+    .institucional__endereco {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .institucional__contato {
+        padding-top: 2rem;
+        margin: auto;
+    }
+    
+}
+
+/* responsividade */
+@media screen and (min-width: 768px) {
+    .institucional__endereco {
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+}
+@media screen and (min-width: 1024px) {
+    .institucional__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .institucional__titulo {
+        text-align: center;
+    }
+
+    .institucional__video {
+        width: 50%;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+    }
+}

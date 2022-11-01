@@ -1,0 +1,24 @@
+.contato {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contato__titulo {
+    font-weight: 700;
+    font-family: var(--montserrat);
+    font-size: 1.5rem;
+    color: var(--cinza-escuro);
+}
+
+.contato__paragrafo {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contato__link {
+    text-align: center;
+    padding: .75rem 2rem;
+    border: solid 1px;
+    border-radius: 5px;
+}
